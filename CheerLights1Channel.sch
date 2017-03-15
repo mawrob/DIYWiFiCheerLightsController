@@ -579,14 +579,6 @@ RECOMMENDED ON ALL LAYERS</text>
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
-<package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
-</package>
-<package name="DUMMY">
-<description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
-</package>
 <package name="DCJ3P-14.2X11.0X9.0MM">
 <wire x1="-10.795" y1="3.175" x2="3.175" y2="3.175" width="0.127" layer="21"/>
 <wire x1="3.175" y1="3.175" x2="3.175" y2="-4.953" width="0.127" layer="51"/>
@@ -855,44 +847,6 @@ chip</description>
 <wire x1="0" y1="-1.905" x2="1.905" y2="0" width="0.254" layer="94"/>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="LETTER_L">
-<wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
-<wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
-<wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
-<wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
-</symbol>
-<symbol name="DOCFIELD">
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0.254" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.254" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.254" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.254" layer="94"/>
-<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.254" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.254" layer="94"/>
-<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.254" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.254" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.254" layer="94"/>
-<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.254" layer="94"/>
-<text x="1.27" y="1.27" size="2.54" layer="94" font="vector">Date:</text>
-<text x="12.7" y="1.27" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
-<text x="86.36" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
-<text x="88.9" y="11.43" size="2.54" layer="94" font="vector">REV:</text>
-<text x="1.524" y="17.78" size="2.54" layer="94" font="vector">TITLE:</text>
-<text x="15.494" y="17.78" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="2.54" y="31.75" size="1.9304" layer="94">Released under the Creative Commons</text>
-<text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 4.0 License</text>
-<text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
-</symbol>
 <symbol name="POWER-JACK-DC">
 <wire x1="3.81" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="1.27" y1="2.54" x2="1.27" y2="3.175" width="0.1524" layer="91"/>
@@ -966,29 +920,6 @@ chip</description>
 <device name="">
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FRAME-LETTER" prefix="FRAME">
-<description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
-Standard 8.5x11 US Letter frame</description>
-<gates>
-<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
-<gate name="V" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
-</gates>
-<devices>
-<device name="" package="CREATIVE_COMMONS">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NO_PACKAGE" package="DUMMY">
-<technologies>
-<technology name="">
-<attribute name="DESIGNER" value="Robert Mawrey" constant="no"/>
-<attribute name="VERSION" value="v01" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -1427,11 +1358,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="U$1" library="Particle" deviceset="PHOTON" device="_WITH_HEADERS"/>
-<part name="U$2" library="Mawrey" deviceset="BUFFER" device="SN74LV1T34"/>
+<part name="U1" library="Particle" deviceset="PHOTON" device="_WITH_HEADERS"/>
+<part name="U2" library="Mawrey" deviceset="BUFFER" device="SN74LV1T34"/>
 <part name="GND1" library="Mawrey" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="FRAME1" library="Mawrey" deviceset="FRAME-LETTER" device=""/>
 <part name="J1" library="Seeed-Connector -2016" deviceset="SCREW-TERMINAL-GREEN(3P-5.0)" device="" value="GREEN-3P-5.0">
 <attribute name="PARTNO" value="1935174"/>
 </part>
@@ -1451,24 +1381,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND5" library="Mawrey" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="C1" library="Mawrey" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="U$3" library="Mawrey" deviceset="0805_CAP" device=""/>
 <part name="C3" library="Mawrey" deviceset="CAP" device="0805" value="1uF"/>
 <part name="GND7" library="Mawrey" deviceset="GND" device=""/>
 <part name="GND8" library="Mawrey" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="GND6" library="Mawrey" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="100.33" y="107.95"/>
-<instance part="U$2" gate="G$1" x="138.43" y="80.01"/>
+<instance part="U1" gate="G$1" x="100.33" y="107.95"/>
+<instance part="U2" gate="G$1" x="138.43" y="80.01"/>
 <instance part="GND1" gate="1" x="138.43" y="68.58"/>
 <instance part="SUPPLY1" gate="G$1" x="138.43" y="90.17"/>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="FRAME1" gate="V" x="147.32" y="0"/>
 <instance part="J1" gate="G$1" x="176.53" y="80.01">
 <attribute name="PARTNO" x="176.53" y="80.01" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
@@ -1493,25 +1421,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND8" gate="1" x="157.48" y="120.65"/>
 <instance part="SUPPLY7" gate="G$1" x="148.59" y="134.62"/>
 <instance part="SUPPLY8" gate="G$1" x="157.48" y="134.62"/>
+<instance part="GND6" gate="1" x="123.19" y="115.57"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="DATA" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D0"/>
-<pinref part="U$2" gate="G$1" pin="IN"/>
+<pinref part="U1" gate="G$1" pin="D0"/>
+<pinref part="U2" gate="G$1" pin="IN"/>
 <wire x1="133.35" y1="80.01" x2="118.11" y2="80.01" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="1">
 <segment>
-<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="138.43" y1="71.12" x2="138.43" y2="74.93" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND@2"/>
+<pinref part="U1" gate="G$1" pin="GND@2"/>
 <pinref part="J2" gate="JACK" pin="-"/>
 <wire x1="69.85" y1="130.81" x2="82.55" y2="130.81" width="0.1524" layer="91"/>
 <pinref part="J2" gate="JACK" pin="CDN"/>
@@ -1547,15 +1476,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="157.48" y1="123.19" x2="157.48" y2="124.46" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND@21"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="118.11" y1="120.65" x2="123.19" y2="120.65" width="0.1524" layer="91"/>
+<wire x1="123.19" y1="120.65" x2="123.19" y2="118.11" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="5V" class="1">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PWR"/>
+<pinref part="U2" gate="G$1" pin="PWR"/>
 <pinref part="SUPPLY1" gate="G$1" pin="5V"/>
 <wire x1="138.43" y1="90.17" x2="138.43" y2="85.09" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VIN"/>
+<pinref part="U1" gate="G$1" pin="VIN"/>
 <pinref part="J2" gate="JACK" pin="+"/>
 <wire x1="69.85" y1="135.89" x2="82.55" y2="135.89" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="5V"/>
@@ -1593,7 +1528,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="DOUT" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="P$2"/>
-<pinref part="U$2" gate="G$1" pin="OUT"/>
+<pinref part="U2" gate="G$1" pin="OUT"/>
 <wire x1="168.91" y1="80.01" x2="157.48" y2="80.01" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="80.01" x2="143.51" y2="80.01" width="0.1524" layer="91"/>
