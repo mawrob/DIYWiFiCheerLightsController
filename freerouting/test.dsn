@@ -1,0 +1,158 @@
+(PCB "C:/Users/Robert/Dropbox/Eagle 7/Projects/Test/test.brd"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad CadSoft)
+    (host_version 'Eagle V 8.2 - Using eagle2freerouterV6-6.ulp, version 19-4-2014, on 6/8/2017 9:38 AM')
+    (case_sensitive off)
+    (via_rotate_first on)
+  )
+  (resolution mil 2540)
+  (unit mil)
+  (structure
+    (layer "1#Top" (type signal))
+    (layer "16#Bottom" (type signal))
+    (boundary
+      (rect pcb 0.000000 0.000000 1749.212598 1637.007874))
+    (boundary
+      (path signal 0 0.000000 0.000000 1749.212598 0.000000 1749.212598 1637.007874 0.000000 1637.007874  0.000000 0.000000)
+      (clearance_class boundary)
+    )
+    (via
+      "Round1$13.779528"
+    )
+    (control
+      (via_at_smd on)
+    )
+    (rule (width 6.000000)(clearance 6.000000))
+    (rule (clearance 40.000000 (type default_boundary)))
+    (rule (clearance 40.000000 (type area_wire)))
+    (rule (clearance 40.000000 (type area_via)))
+  )
+  (placement
+    (place_control (flip_style rotate_first))
+    (component "1X16_LOCK$Mawrey"
+      (place "JP1" 100.000000 100.000000 Front 0.000000)
+    )
+    (component "ESP-12$adafruit"
+      (place "X1" 850.000000 950.000000 Front 0.000000)
+    )
+  )
+  (library
+    (image "1X16_LOCK$Mawrey"
+      (pin "Round1" "1" 0.000000 5.000000)
+      (pin "Round1" "2" 100.000000 -5.000000)
+      (pin "Round1" "3" 200.000000 5.000000)
+      (pin "Round1" "4" 300.000000 -5.000000)
+      (pin "Round1" "5" 400.000000 5.000000)
+      (pin "Round1" "6" 500.000000 -5.000000)
+      (pin "Round1" "7" 600.000000 5.000000)
+      (pin "Round1" "8" 700.000000 -5.000000)
+      (pin "Round1" "9" 800.000000 5.000000)
+      (pin "Round1" "10" 900.000000 -5.000000)
+      (pin "Round1" "11" 1000.000000 5.000000)
+      (pin "Round1" "12" 1100.000000 -5.000000)
+      (pin "Round1" "13" 1200.000000 5.000000)
+      (pin "Round1" "14" 1300.000000 -5.000000)
+      (pin "Round1" "15" 1400.000000 5.000000)
+      (pin "Round1" "16" 1500.000000 -5.000000)
+    )
+    (image "ESP-12$adafruit"
+      (wire_keepout(rect "1#Top" -314.960630 236.220472 314.960630 511.811024))
+      (wire_keepout(rect "16#Bottom" -314.960630 236.220472 314.960630 511.811024))
+      (pin "SMD_1" "1" -295.275591 177.165354)
+      (pin "SMD_1" "2" -295.275591 98.425197)
+      (pin "SMD_1" "3" -295.275591 19.685039)
+      (pin "SMD_1" "4" -295.275591 -59.055118)
+      (pin "SMD_1" "5" -295.275591 -137.795276)
+      (pin "SMD_1" "6" -295.275591 -216.535433)
+      (pin "SMD_1" "7" -295.275591 -295.275591)
+      (pin "SMD_1" "8" -295.275591 -374.015748)
+      (pin "SMD_1" "9" 295.275591 -374.015748)
+      (pin "SMD_1" "10" 295.275591 -295.275591)
+      (pin "SMD_1" "11" 295.275591 -216.535433)
+      (pin "SMD_1" "12" 295.275591 -137.795276)
+      (pin "SMD_1" "13" 295.275591 -59.055118)
+      (pin "SMD_1" "14" 295.275591 19.685039)
+      (pin "SMD_1" "15" 295.275591 98.425197)
+      (pin "SMD_1" "16" 295.275591 177.165354)
+    )
+    (padstack "ViaDefault$13.779528"
+      (shape (circle signal 29.779528 0 0))
+      (attach off)
+    )
+    (padstack "Round1$13.779528"
+      (shape (circle "1#Top" 29.779528 0 0))
+      (shape (circle "16#Bottom" 29.779528 0 0))
+      (attach off)
+    )
+    (padstack "SMD_1"
+      (shape (polygon "1#Top" 0 39.370079 23.622047 -39.370079 23.622047 -39.370079 -23.622047 39.370079 -23.622047))
+      (attach off)
+    )
+    (padstack "Round1"
+      (shape (circle "1#Top" 74.000000 0 0))
+      (shape (circle "16#Bottom" 74.000000 0 0))
+      (attach off)
+    )
+  )
+  (network
+    (net "N$1"
+      (pins "X1"-"1" "JP1"-"1")
+    )
+    (net "N$2"
+      (pins "X1"-"2" "JP1"-"2")
+    )
+    (net "N$3"
+      (pins "X1"-"3" "JP1"-"3")
+    )
+    (net "N$4"
+      (pins "X1"-"4" "JP1"-"4")
+    )
+    (net "N$5"
+      (pins "X1"-"5" "JP1"-"5")
+    )
+    (net "N$6"
+      (pins "X1"-"6" "JP1"-"6")
+    )
+    (net "N$7"
+      (pins "X1"-"7" "JP1"-"7")
+    )
+    (net "N$8"
+      (pins "JP1"-"8" "X1"-"8")
+    )
+    (net "N$9"
+      (pins "JP1"-"9" "X1"-"9")
+    )
+    (net "N$10"
+      (pins "JP1"-"10" "X1"-"10")
+    )
+    (net "N$11"
+      (pins "JP1"-"11" "X1"-"11")
+    )
+    (net "N$12"
+      (pins "JP1"-"12" "X1"-"12")
+    )
+    (net "N$13"
+      (pins "JP1"-"13" "X1"-"13")
+    )
+    (net "N$14"
+      (pins "JP1"-"14" "X1"-"14")
+    )
+    (net "N$15"
+      (pins "JP1"-"15" "X1"-"15")
+    )
+    (net "N$16"
+      (pins "JP1"-"16" "X1"-"16")
+    )
+    (class "default"
+       "N$1" "N$2" "N$3" "N$4" "N$5" "N$6" "N$7" "N$8" "N$9" "N$10" "N$11" "N$12" "N$13" "N$14" "N$15" "N$16"
+      (rule
+        (width 20.000000)
+        (clearance 20.000000)
+      )
+    )
+  )
+  (wiring
+  )
+)
